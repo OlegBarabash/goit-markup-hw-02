@@ -1,0 +1,162 @@
+/* Colors */
+/* logo1, akcaen-#4D5AE5 */
+/*ligo2, nav, headers- #2E2F42 */
+
+/* contacts, text- #434455 */
+
+/* hero, btntxt- #FFFFFF */
+
+/* footer logo2- #F4F4FD */
+/* footer text- #E7E9FC */
+/* background-color-2: #E5E5E5 */
+/* background-color: #F4F4FD */
+
+:root {
+  --akcaen-color: #4d5ae5;
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  --button-bg-color: #404bbf;
+  --main-bg-color: #ffffff;
+  --team-bg-color: #f4f4fd;
+  --btn-text-white: #ffffff;
+}
+/* General */
+body {
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+/* header and logo*/
+
+.header .logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header .logo:hover,
+.header .logo:focus {
+  text-decoration: underline;
+}
+.logo .logo-web {
+  color: var(--akcaen-color);
+}
+
+.logo .logo-studio {
+  color: var(--title-color);
+}
+
+.style-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.style-addres .addres {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.style-addres .addres:hover,
+.style-addres .addres:focus,
+.style-nav .link:hover,
+.style-nav .link:focus {
+  color: var(--akcaen-color);
+}
+
+/* Sections */
+
+/* .section {
+  
+} */
+
+.hero .title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+.hero .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: var(--btn-text-white);
+  background-color: var(--akcaen-color);
+  cursor: pointer;
+}
+.hero .btn:hover,
+.hero .btn:focus {
+  color: var(--akcaen-color);
+  background-color: var(--btn-text-white);
+}
+
+.invisible-title {
+}
+
+.features .title,
+.team .title,
+.filter .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title-color);
+}
+
+.team {
+  background-color: var(--team-bg-color);
+}
+
+.team .main-title,
+.services .main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+/* Buttons */
+
+.button-style {
+}
+
+.filters-button {
+  font-family: inherit;
+  color: var(--akcaen-color);
+  background-color: var(--main-bg-color);
+  cursor: pointer;
+}
+
+.filters-button:focus,
+.filters-button:hover {
+  color: var(--main-bg-color);
+  background-color: var(--button-bg-color);
+}
